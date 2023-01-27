@@ -3,7 +3,7 @@ import { FLICKR_API_KEY } from "../config";
 import { FlickrApiResponse } from "../types";
 import { createRequestUrl } from "../utils/utils";
 
-const baseFlickrURL = `https://www.flickr.com/services/rest/?format=json&nojsoncallback=1&api_key=${FLICKR_API_KEY}`;
+const baseFlickrURL = `https://www.flickr.com/services/rest/?format=json&nojsoncallback=1&content_type=1&safe_search=1&api_key=${FLICKR_API_KEY}`;
 
 export const getPhotosWithSearchParameters = (
   perPage: number = 10,
