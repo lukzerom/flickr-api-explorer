@@ -1,4 +1,4 @@
-# Welcome to Flickr API photo explorer by Łukasz Żeromski
+# Welcome to Flickr API photo explorer by Łukasz Żeromski 🚀
 
 App uses flickr.photos.search method which allowes us to search using query and category (tags)
 
@@ -14,6 +14,10 @@ For assignment purpuse you can use mine:
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install dependencies
 
 ### `npm start`
 
